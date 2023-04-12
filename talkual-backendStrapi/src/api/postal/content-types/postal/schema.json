@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "postals",
+  "info": {
+    "singularName": "postal",
+    "pluralName": "postals",
+    "displayName": "Postal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Region": {
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "type": "integer",
+      "required": true
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product",
+      "mappedBy": "postal"
+    }
+  }
+}

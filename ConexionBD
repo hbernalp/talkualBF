@@ -1,0 +1,7 @@
+postgres://root:4dIU7hNPaVgJaV2YYll6CFPhikPOKYKc@dpg-cgrb1ad269v4iop2fbbg-a.frankfurt-postgres.render.com/talkualdb
+
+usuario:    root
+Clave:      4dIU7hNPaVgJaV2YYll6CFPhikPOKYKc
+host:       dpg-cgrb1ad269v4iop2fbbg-a.frankfurt-postgres.render.com
+BD:         talkualdb
+
